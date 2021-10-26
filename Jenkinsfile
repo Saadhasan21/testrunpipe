@@ -10,13 +10,14 @@ pipeline{
         stage('Build'){
                steps{
                 echo 'deploy'   
+                }
         }
      
         stage('Deploy'){
 
-                   steps{
+             steps{
                 echo 'deploy'   
+             }
         }
-        }
+     }
     }
-}
